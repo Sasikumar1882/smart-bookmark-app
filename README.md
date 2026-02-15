@@ -213,7 +213,7 @@ https://your-vercel-link.vercel.app
 
 ## 👨‍💻 Author
 
-**Sasikumar**
+**Sasikumar**R
 Aspiring Fullstack Developer
 
 ---
