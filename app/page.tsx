@@ -17,6 +17,15 @@ export default function Home() {
 
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
+
+  // ===== LOGOUT FUNCTION =====
+const handleLogout = async () => {
+  const { error } = await supabase.auth.signOut();
+
+  if (error) console.log(error.message);
+  else window.location.reload();
+};
+
   const [bookmarks, setBookmarks] = useState<any[]>([]);
 
   const [search, setSearch] = useState("");
