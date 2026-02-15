@@ -37,25 +37,27 @@ This project demonstrates full-stack development, authentication, database secur
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### 🔐 Login Page
 
-![Login Page](./screenshots/Login page image.png)
+![Login Page](./screenshots/Login%20page%20image.png)
 
 ### 🏠 Dashboard
 
-![Dashboard](./screenshots/Dashboard image.png)
+![Dashboard](./screenshots/Dashboard%20image.png)
 
 ### ➕ Add Bookmark
 
-![Add Bookmark](./screenshots/Bookmarks image.png)
+![Add Bookmark](./screenshots/Bookmarks%20image.png)
 
 ### ✏️ Edit Bookmark
 
-![Edit Bookmark](./screenshots/Edit option image.png)
+![Edit Bookmark](./screenshots/Edit%20option%20image.png)
 
 ### 🔍 Search Feature
 
-![Search](./screenshots/Search option image.png)
+![Search](./screenshots/Search%20option%20image.png)
 
 
 ---
