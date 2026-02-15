@@ -202,19 +202,18 @@ export default function Home() {
 
   /* ================= LOGIN ================= */
   const handleLogin = async () => {
-    setErrorMsg("");
+  setErrorMsg("");
 
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: { redirectTo: window.location.origin },
-    });
+  const { error } = await supabase.auth.signInWithOAuth({
+    provider: "google",
+    options: {
+      redirectTo: window.location.origin + "/auth/callback",
+    },
+  });
 
-    if (error) setErrorMsg("Login failed: " + error.message);
-  };
+  if (error) setErrorMsg("Login failed: " + error.message);
+};
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
-  };
 
   /* ================= LOADING ================= */
   if (loading)
