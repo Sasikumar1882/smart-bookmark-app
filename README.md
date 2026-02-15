@@ -1,5 +1,9 @@
 # 🚀 Smart Bookmark Manager
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel)
+
 A full-stack real-time bookmark management application built using **Next.js App Router** and **Supabase**.
 
 Users can securely store, manage, and update personal bookmarks with **real-time synchronization across multiple browser tabs**.
@@ -35,7 +39,6 @@ This project demonstrates full-stack development, authentication, database secur
 
 ---
 
-## 📸 Screenshots
 
 ## 📸 Screenshots
 
@@ -171,11 +174,8 @@ http://localhost:3000
 
 Deployed on Vercel.
 
-👉 Add your live URL after deployment:
+👉 https://smart-bookmark-app-ten-vert.vercel.app
 
-```
-https://your-vercel-link.vercel.app
-```
 
 ---
 
@@ -215,7 +215,7 @@ https://your-vercel-link.vercel.app
 
 ## 👨‍💻 Author
 
-**Sasikumar**R
+**Sasikumar R**
 Aspiring Fullstack Developer
 
 ---
