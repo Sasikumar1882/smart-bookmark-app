@@ -42,6 +42,10 @@ This project demonstrates full-stack development, authentication, database secur
 
 ## 📸 Screenshots
 
+Users can sign in securely using Google OAuth authentication.
+Each user can only access their own bookmarks.
+
+
 ### 🔐 Login Page
 
 ![Login Page](./screenshots/Login%20page%20image.png)
